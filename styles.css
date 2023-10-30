@@ -1,0 +1,179 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+img {
+    width: ;
+}
+
+.container {
+    padding: 40px;
+}
+
+header {
+    background-image: url('images/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+
+.navbar {
+    padding: 10px;
+}
+
+.navbar,
+.nav-items,
+.nav-end {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #ededed;
+}
+
+.nav-items {
+    gap: 20px;
+    font-weight: bold;
+}
+
+.nav-end {
+    gap: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.btn {
+    background-color: #d35400;
+    color: #fff;
+    border: none;
+    width: 80px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.nav-items .nav-item {
+    list-style: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.brandname span {
+    font-size: 30px;
+}
+
+.text-middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+}
+
+.text-middle h5 {
+    color: #f1c40f;
+    margin-bottom: 30px;
+}
+
+.text-middle h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.text-middle p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/*  */
+#one {
+    position: relative;
+    bottom: 80px;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: lightblue;
+    width: 50px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.trait {
+    background-color: #e74c3c;
+    width: 50px;
+    height: 2px;
+    margin-top: 15px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.card {
+    box-shadow: 5px 5px 5px #999;
+    width: 300px;
+    height: 250px;
+    background-color: #fff;
+    padding: 25px;
+}
+
+.card h4 {
+    margin-top: 10px;
+
+}
+
+.card p {
+    margin-top: 15px;
+}
+
+.card-red {
+    background-color: #e74c3c;
+    color: #fff;
+}
+
+.card-red .trait {
+    background-color: #fff;
+}
+
+/*  */
+.row2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.img2 {
+    position: relative;
+    bottom: 80px;
+}
+
+.img1 {
+    position: absolute;
+
+}
+
+.img10 {
+    position: absolute;
+    left: 0;
+}
+
+.img3 {
+    position: absolute;
+    left: 300px;
+}
