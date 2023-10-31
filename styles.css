@@ -8,12 +8,14 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-img {
-    width: ;
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #222f3e;
 }
 
 .container {
-    padding: 40px;
+    padding: 80px;
 }
 
 header {
@@ -96,7 +98,7 @@ header {
 /*  */
 #one {
     position: relative;
-    bottom: 80px;
+    bottom: 140px;
 }
 
 .img {
@@ -112,8 +114,8 @@ header {
 
 .trait {
     background-color: #e74c3c;
-    width: 50px;
-    height: 2px;
+    width: 60px;
+    height: 5px;
     margin-top: 15px;
 }
 
@@ -176,4 +178,189 @@ header {
 .img3 {
     position: absolute;
     left: 300px;
+}
+
+.learn-more {
+    margin-top: 50px;
+    font-weight: bold;
+    color: #e74c3c;
+}
+
+.fa-chevron-right {
+    margin-left: 10px;
+}
+
+/* SECTION 3 */
+.row3 {
+    gap: 40px;
+}
+
+/* SECTION 4 */
+.cards {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 70px;
+}
+
+.card-header {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card-header h4 {
+    color: #d35400;
+}
+
+.card-body h4 {
+    color: #222f3e;
+}
+
+.blue {
+    color: blue;
+}
+
+.card-btn {
+    border: 1px solid #d35400;
+    color: #d35400;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 20px;
+    width: 120px;
+    font-weight: bold;
+}
+
+/* SECTION 5 */
+#five {
+    background-color: #273c75;
+}
+
+#five h5 {
+    color: #d35400;
+}
+
+#five h1 {
+    color: #fff;
+}
+
+#five p {
+    /* color: #ededed; */
+}
+
+.cartes {
+    display: flex;
+    margin-top: 40px;
+    gap: 70px;
+}
+
+.carte {
+    background-color: #fff;
+    width: 300px;
+    padding: 20px;
+}
+
+.carte-img {
+    width: 80px;
+}
+
+.carte h4 {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.carte p {
+    color: #000;
+}
+
+.carte .price {
+    color: #e74c3c;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.carte .duration {
+    color: lightblue;
+}
+
+.carte .checklist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.carte-btn button {
+    background-color: #e74c3c;
+    color: #fff;
+    border: 0;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* SECTION 6 */
+.row6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.testimonial-user-cover {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+/* SECTION 7 */
+#seven {
+    text-align: center;
+}
+
+.mail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#input {
+    width: 400px;
+    padding: 10px;
+    /* border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px; */
+
+
+}
+
+.btn-mail {
+    width: 120px;
+    padding: 12px;
+    background-color: #d35400;
+    border: 0;
+    color: #fff;
+}
+
+/* FOOTER */
+.footer {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.footer h4 {
+    margin-bottom: 15px;
+}
+
+.foot {
+    display: flex;
+    justify-content: space-around;
+    background-color: #ededed;
+    padding: 15px;
+    gap: 400px;
+}
+
+.icon-sociaux {
+    /* padding-right: 85px; */
 }
