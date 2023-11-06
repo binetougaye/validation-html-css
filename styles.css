@@ -2,16 +2,20 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    /* outline: 1px solid red; */
 }
 
 body {
     font-family: 'Poppins', sans-serif;
+    /* max-width: 2000px; */
 }
 
-h1 {
+img {}
+
+.text-middle h1 {
     font-size: 30px;
     font-weight: bold;
-    color: #222f3e;
+    color: #fff;
 }
 
 .container {
@@ -116,7 +120,12 @@ header {
     background-color: #e74c3c;
     width: 60px;
     height: 5px;
-    margin-top: 15px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.left h2 {
+    margin-bottom: 15px;
 }
 
 .row {
@@ -129,10 +138,13 @@ header {
 .card {
     box-shadow: 5px 5px 5px #999;
     width: 300px;
-    height: 250px;
+    height: 280px;
     background-color: #fff;
-    padding: 25px;
+    padding: 30px;
+
 }
+
+
 
 .card h4 {
     margin-top: 10px;
@@ -141,6 +153,8 @@ header {
 
 .card p {
     margin-top: 15px;
+
+
 }
 
 .card-red {
@@ -196,25 +210,41 @@ header {
 }
 
 /* SECTION 4 */
+.content-head {
+    margin-bottom: 80px;
+}
+
+.content-head p {
+    color: #fff;
+}
+
 .cards {
     display: flex;
     justify-content: center;
     /* align-items: center; */
-    gap: 70px;
+    gap: 50px;
+
+}
+
+.card-sale-img {
+    /* width: 100%; */
 }
 
 .card-header {
     display: flex;
     justify-content: center;
     gap: 20px;
+    margin-top: 12px;
 }
 
-.card-header h4 {
+.card-header h4,
+h5 {
     color: #d35400;
 }
 
 .card-body h4 {
     color: #222f3e;
+    margin-top: 5px;
 }
 
 .blue {
@@ -229,6 +259,7 @@ header {
     border-radius: 20px;
     width: 120px;
     font-weight: bold;
+    margin-top: 15px;
 }
 
 /* SECTION 5 */
@@ -267,16 +298,24 @@ header {
 .carte h4 {
     text-transform: uppercase;
     font-size: 20px;
+    margin-top: 18px;
 }
 
 .carte p {
     color: #000;
+    margin-top: 18px;
+    margin-bottom: 14px;
+}
+
+.check {
+    margin-top: 24px;
 }
 
 .carte .price {
     color: #e74c3c;
     font-size: 24px;
     font-weight: bolder;
+    margin: 0;
 }
 
 .carte .duration {
@@ -305,13 +344,33 @@ header {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: 80px;
+    padding-top: 100px;
 }
 
 .testimonial-user-cover {
     width: 100px;
     height: 100px;
     border-radius: 50px;
+}
+
+.row6 .left p {
+    margin-top: 25px;
+}
+
+.row6 .right p {
+    margin-top: 25px;
+}
+
+.row6 .left h4 {
+    margin-top: 10px;
+}
+
+.row6 .right h4 {
+    margin-top: 10px;
+}
+
+.stars {
+    margin-top: 15px;
 }
 
 /* SECTION 7 */
@@ -328,13 +387,12 @@ header {
 #input {
     width: 400px;
     padding: 10px;
-    /* border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px; */
-
+    margin-top: 60px;
 
 }
 
 .btn-mail {
+    margin-top: 60px;
     width: 120px;
     padding: 12px;
     background-color: #d35400;
@@ -349,6 +407,10 @@ header {
     gap: 50px;
 }
 
+.footer p {
+    margin-top: 8px;
+}
+
 .footer h4 {
     margin-bottom: 15px;
 }
@@ -361,6 +423,98 @@ header {
     gap: 400px;
 }
 
-.icon-sociaux {
-    /* padding-right: 85px; */
+.icon-sociaux img {
+    margin-left: 12px;
+}
+
+/* RESPONSIVE PART */
+@media screen and (max-width:1117px) {
+
+    .row,
+    .row2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .cartes,
+    .left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .content-head,
+    .content {
+        text-align: center;
+    }
+
+    .left {
+        text-align: center;
+    }
+
+    #one {
+        position: static;
+    }
+
+    .card-sale {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:721px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 50px;
+    }
+
+    .brandname span {
+        font-size: 20px;
+    }
+
+    .nav-item {
+        font-size: 16px;
+    }
+
+
+
+    .video-card {
+        width: 100%;
+    }
+
+    .mail {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar,
+    .nav-items,
+    .nav-end,
+    .foot {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .foot {
+        padding: 10px;
+    }
 }
