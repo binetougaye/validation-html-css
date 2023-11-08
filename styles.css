@@ -2,15 +2,11 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    /* outline: 1px solid red; */
 }
 
 body {
     font-family: 'Poppins', sans-serif;
-    /* max-width: 2000px; */
 }
-
-img {}
 
 .text-middle h1 {
     font-size: 30px;
@@ -174,24 +170,8 @@ header {
     gap: 80px;
 }
 
-.img2 {
-    position: relative;
-    bottom: 80px;
-}
-
-.img1 {
-    position: absolute;
-
-}
-
-.img10 {
-    position: absolute;
-    left: 0;
-}
-
-.img3 {
-    position: absolute;
-    left: 300px;
+.concept-img {
+    width: 100%;
 }
 
 .learn-more {
@@ -492,7 +472,9 @@ h5 {
         font-size: 16px;
     }
 
-
+    .text-middle h1 {
+        font-size: 20px;
+    }
 
     .video-card {
         width: 100%;
@@ -512,9 +494,19 @@ h5 {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+
+    }
+
+    .text-middle {
+        margin-top: 95px;
     }
 
     .foot {
         padding: 10px;
+        gap: 80px;
+    }
+
+    #input {
+        width: 300px;
     }
 }
